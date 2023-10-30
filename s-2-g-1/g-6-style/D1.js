@@ -65,4 +65,4 @@ console.log(name1 == name2);
 Convertire Fahrenheit a Celsius*/
 let fahrenheit = 70;
 let celsius = (fahrenheit - 32) * (5/9);
-console.log(celsius)
+console.log(celsius) 
