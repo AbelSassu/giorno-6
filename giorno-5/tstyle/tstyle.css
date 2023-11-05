@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap');
+hr {display: none;}
+*{
+    text-align: center;
+}
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.5em;
+    margin: 0px;
+    padding-top: 15px;
+}
+p {
+    padding-bottom: 10px;
+    margin: 10px 40px 10px 40px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65em;
+    margin: 0px;
+} 
+header {
+    background-color: black;
+    padding: 45px;
+}
+main {
+    background-color: white;
+}
+section {
+    margin-bottom: 30px;
+}
+.sec1 {
+    padding: 20px;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: 120%;
+
+}
+button {
+    background-color: #f04c2f;
+    font-family: 'Montserrat';
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px;
+    font-size: 60%;
+    box-shadow: none;
+}
+#notebook {
+    border-radius: 50%;
+    padding-left: 10px;
+    max-width: 60%;
+    margin-bottom: 25px;
+}
+.sec2 {
+    background-color: #e22d0e;
+    color: white; 
+}
+#garantisce {
+    color: white;
+    padding-top: 50px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+#ceo {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    font-size: small;
+}
+.sec3 {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bordi{
+    margin-top: 35px;
+    border-style: groove;
+}
+article {
+    padding-bottom: 1px;
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #25a2c3;
+    color: #c8e7f0;
+}
+footer h2 {
+    margin-bottom: 10px;
+    color: white;
+}
+footer a {
+    color: #c8e7f0;
+}
+#appia {
+    margin: 0px;
+}
+.linea {
+    height: 1px;
+    width: 50%;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 100%;
+} 

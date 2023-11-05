@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/sfondo.png);
+    background-position: center;
+    background-repeat: repeat-y;
+    padding: 12px;
+    display: block;
+    font-size: 1em;
+    line-height: 1.3em;
+}
+hr {
+    display: none;
+}
+header {
+    padding: 10px;
+    box-shadow: 0px 3px 5px 0px #292828; 
+    background-color: #0186bb;
+    background: linear-gradient(180deg, rgba(0,160,198,1) 0%, rgba(3,109,134,1) 68%);
+    margin: 25px;
+    
+}
+header div {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.904);
+}
+nav ul li{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    list-style: none;
+    padding-right: 2.2em;
+    
+}
+nav ul li a{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+}
+.immagine {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+main {
+    background-color: white;
+    box-shadow: -2px 3px 5px 0px #292828; 
+    padding: 15px;
+}
+.mario {
+    color: gray;
+    padding-bottom: 10px;
+}
+strong {
+    color: rgb(173, 4, 173);
+}
+li div {
+    display: inline;
+    background-color: rgba(128, 128, 128, 0.247);
+    border-radius: 4px;
+} 
+ul{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.format {
+    margin: 0em;
+    padding-bottom: 10px;
+}
+ol {
+    padding-bottom: 5px;
+}
+caption {
+ padding-top: 10px;
+ padding-bottom: 5px;
+}
+th {
+    padding: 20px 10px;
+    background-color:rgb(15, 109, 233);
+    vertical-align: bottom;
+    color: white; 
+    font-weight: 200;
+}
+table {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #3f6bca;
+}
+#tool {
+    color: #0186bb;
+}
+iframe {
+    border-radius: 20px;
+    width: 350px;
+    height: 200px;
+    margin-bottom: 35px;
+}
+form {
+    padding: 15px;
+    background-color: rgba(216, 215, 215, 0.678);
+    text-align: center;
+}
+form h2{
+    margin-top: 15px;
+    padding-bottom: 10px;
+
+    color: #4e4c4c;
+}
+form p{
+    padding-bottom: 10px;
+}
+input {
+    margin: 0px;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px dashed #333;
+}
+button{
+    padding: 4px 7px;
+    background-color: rgb(15, 109, 233);
+    color: white;
+    border: 0px;
+}
+aside h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}

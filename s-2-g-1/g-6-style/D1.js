@@ -63,6 +63,6 @@ console.log(name1 == name2);
 
 /* ESERCIZIO EXTRA
 Convertire Fahrenheit a Celsius*/
-let fahrenheit = 70;
+let fahrenheit = prompt("Inserire i gradi da convertire");
 let celsius = (fahrenheit - 32) * (5/9);
-console.log(celsius)
+alert(`${fahrenheit} gradi fahrenheit corrispondono a ${celsius} gradi`)
